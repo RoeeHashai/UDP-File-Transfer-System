@@ -76,7 +76,6 @@ void handleFileTransfer(int sockfd, sockaddr_in &client_adress)
 
 int main()
 {
-    // handleFileTransfer();
     int sockfd;
     struct sockaddr_in server_addr, client_addr;
     char buffer[1024];
